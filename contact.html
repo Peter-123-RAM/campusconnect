@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CampusConnect helps students discover campus events, clubs and student opportunities.">
+  <title>CampusConnect | Join / Contact</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Campus<span>Connect</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="clubs.html">Clubs</a>
+        <a href="contact.html" aria-current="page">Join / Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container" id="main-content">
+ 
+    <section class="page-intro">
+      <p class="eyebrow">Take the first step</p>
+      <h1>Join / Contact Us</h1>
+      <p>Interested in a club or event? Complete this practice form to explore the type of information a student interest form collects.</p>
+    </section>
+    <div class="contact-layout">
+      <section class="form-card">
+        <h2>Student interest form</h2>
+        <form action="contact.html" method="get">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="full-name">Full name</label>
+              <input type="text" id="full-name" name="full_name" autocomplete="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+              <label for="year">Year of study</label>
+              <select id="year" name="year" required>
+                <option value="">Choose your year</option>
+                <option>Year 1</option><option>Year 2</option><option>Year 3</option><option>Year 4</option><option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="interest">Club or event interest</label>
+              <select id="interest" name="interest" required>
+                <option value="">Choose an interest</option>
+                <option>Coding Club</option><option>Debate Society</option><option>Photography Club</option><option>Build &amp; Code Workshop</option><option>Community Service Day</option><option>Other</option>
+              </select>
+            </div>
+          </div>
+          <fieldset>
+            <legend>Preferred contact method</legend>
+            <label class="choice"><input type="radio" name="contact_method" value="email" required> Email</label>
+            <label class="choice"><input type="radio" name="contact_method" value="phone"> Phone</label>
+          </fieldset>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what you hope to learn or contribute."></textarea>
+          </div>
+          <button class="button" type="submit">Submit interest</button>
+          <p class="form-note">Practice form only — information is not sent to an organizer or stored in a database. Submitting this local demonstration form may display the entered fields in the browser address bar.</p>
+        </form>
+      </section>
+      <aside class="contact-card">
+        <h2>Contact details</h2>
+        <p>For this classroom exercise, the details below are demonstration contact information.</p>
+        <p><strong>Email</strong><br><a href="mailto:hello@campusconnect.example">hello@campusconnect.example</a></p>
+        <p><strong>Location</strong><br>Student Centre, Campus</p>
+        <p><strong>Office hours</strong><br>Monday–Friday, 9:00 AM–4:00 PM</p>
+        <hr>
+        <h2>Student resource</h2>
+        <p>Review the HTML and CSS learning guides as you continue practising.</p>
+        <a href="https://www.tutorialspoint.com/html/" target="_blank" rel="noopener noreferrer">TutorialsPoint HTML guide</a><br>
+        <a href="https://www.tutorialspoint.com/css/" target="_blank" rel="noopener noreferrer">TutorialsPoint CSS guide</a>
+      </aside>
+    </div>
+ 
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>CampusConnect</strong>
+        <p>Discover. Participate. Belong.</p>
+      </div>
+      <div>
+        <p>Questions or ideas?</p>
+        <p><a href="mailto:hello@campusconnect.example">hello@campusconnect.example</a></p>
+        <p>&copy; 2026 CampusConnect Student Community</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+ 
